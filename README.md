@@ -20,7 +20,7 @@ Clone os repositórios do Typeboot N8N Evolution Whaticket e Chatwoot.
 git clone https://github.com/Rickinet/instalador_T_N_E_W_C_.git
 cd instalador_T_N_E_W_C_
 chmod +x instalador.sh
-./instalador.sh
+yes | ./instalador.sh
 ```
 ### Credenciais de Acesso Nginx
 
