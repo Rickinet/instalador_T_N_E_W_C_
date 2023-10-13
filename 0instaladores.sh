@@ -2,19 +2,6 @@
 
 #########################################################
 
-function prompt_input {
-    local prompt_message="$1"
-    local var_name="$2"
-    while [ -z "${!var_name}" ]; do
-        read -p "$prompt_message: " $var_name
-        if [ -z "${!var_name}" ]; then
-            echo "Resposta inválida. Não pode ser vazio."
-        fi
-    done
-}
-
-#########################################################
-
 clear
 
 echo -e "\e[32m\e[0m"
@@ -52,10 +39,9 @@ sudo apt-get upgrade -y
 
 clear
 
-while true; do
-    prompt_input "Digite a versão da sua escolha para o Node.js (ex: ultima atualização '18') " versionn
-    echo ""
-done
+echo ""
+read -p "Digite a versão da sua escolha para o Node.js (ex:'18') " versionn
+echo ""
 
 # Adiciona o repositório Node.js
 sudo apt-get install -y ca-certificates curl gnupg
