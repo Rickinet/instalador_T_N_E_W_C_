@@ -61,14 +61,23 @@ while true; do
     
 
     # Pergunte ao usuário se as informações estão corretas
+
+    clear  
+
+    echo -e "\e[32m==============================================================================\e[0m"
+    echo -e "\e[32m=                                                                            =\e[0m"
+    echo -e "\e[32m=                 \e[33mVerifique com muita atenção\e[32m                 =\e[0m"
+    echo -e "\e[32m=                                                                            =\e[0m"
+    echo -e "\e[32m==============================================================================\e[0m"
+
     echo ""    
-    echo "As informações fornecidas estão corretas?"
+    echo -e "\e[34mAs informações fornecidas estão corretas?\e[0m"
     echo ""
-    echo "Domínio da API: $dominio"
-    echo "Porta da API: $porta"
-    echo "Porta da API: $emaill"
-    echo "Nome da API: $client"
-    echo "ApiKey Global: $keyy"
+    echo -e "\e[31mDomínio da API: $dominio\e[0m"
+    echo -e "\e[31mPorta da API: $porta\e[0m"
+    echo -e "\e[31mPorta da API: $emaill\e[0m"
+    echo -e "\e[31mNome da API: $client\e[0m"
+    echo -e "\e[31mApiKey Global: $keyy\e[0m"
     echo ""
     read -p "Digite 'Y' para continuar ou 'N' para corrigir: " confirmacao
 
