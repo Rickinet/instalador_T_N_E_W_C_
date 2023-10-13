@@ -49,6 +49,9 @@ display_menu() {
 # Exibe o banner informativo
 display_banner
 
+# Exibe o menu
+display_menu
+
 #########################################################
 
 # Ler a opção escolhida pelo usuário
