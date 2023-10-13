@@ -29,18 +29,21 @@ display_banner() {
 
 # Função para exibir o menu
 display_menu() { 
-  echo
+  echo ""
   echo -e "\e[34mEscolha uma opção para instalação:\e[0m"
   echo ""
   echo -e "  0. \e[31mInstalar Programas Recomendados\e[0m"  
   echo -e "  1. \e[31mInstalar Typeboot\e[0m"  
-  echo -e "  2. \e[31mInstalar Evolution API com proxy reverso\e[0m"
-  echo -e "  3. \e[31mInstalar Chatwoot 3.1.1 Edition\e[0m"
-  echo -e "  4. \e[31mInstalar Whaticket\e[0m"
-  echo -e "  5. \e[31mInstalar N8N\e[0m"
-  echo -e "  6. \e[31mInstalar Nginx Manager\e[0m"
-  echo -e "  7. \e[31mSair\e[0m"
-  echo
+  echo -e "  2. \e[31mInstalar Evolution API com Proxy Reverso\e[0m"
+  echo -e "  3. \e[31mInstalar Appsmith\e[0m" 
+  echo -e "  4. \e[31mInstalar Chatwoot 3.1.1 Edition\e[0m"
+  echo -e "  5. \e[31mInstalar Whaticket\e[0m"
+  echo -e "  6. \e[31mInstalar N8N\e[0m"
+  echo -e "  7. \e[31mInstalar Nginx Manager\e[0m"
+  echo -e "  8. \e[31mSair\e[0m"
+  echo ""
+  read -p "Escolha uma opção: " option
+
 }
 
 #########################################################
