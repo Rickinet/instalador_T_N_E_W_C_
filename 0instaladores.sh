@@ -176,7 +176,7 @@ cd
 
 clear
 
-cd ~/instalador_T_N_E
+cd /home/ubuntu/instalador_T_N_E_W_C_
 
 # Retorna para o instalador.sh
 # Exibe uma mensagem de confirmação
