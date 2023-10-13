@@ -12,13 +12,13 @@
 
 Siga estas etapas para instalar todos os serviços em uma única sequência.
 
-### Passo 1: Atualize o sistema
+### Passo 1: Clone o repositório
 
-Clone os repositórios do Typeboot Evolution e Chatwoot.
+Clone os repositórios do Typeboot N8N Evolution Whaticket e Chatwoot.
 
 ```bash
-git clone https://github.com/Rickinet/instalador_T_N_E.git
-cd instalador_T_N_E.git
+git clone https://github.com/Rickinet/instalador_T_N_E_C_.git
+cd instalador_T_N_E_C_.git
 chmod +x instalador.sh
 ./instalador.sh
 ```
