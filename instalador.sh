@@ -42,17 +42,12 @@ display_menu() {
   echo -e "  7. \e[31mInstalar Nginx Manager\e[0m"
   echo -e "  8. \e[31mSair\e[0m"
   echo ""
-  read -p "Escolha uma opção: " option
-
 }
 
 #########################################################
 
 # Exibe o banner informativo
 display_banner
-
-# Exibe o menu
-display_menu
 
 #########################################################
 
