@@ -47,6 +47,15 @@ while true; do
         echo "Resposta inválida. A versão do Node.js não pode ser vazio."
         read -p "Qual é a versão do Node.js que você deseja instalar (ex: ultima atualização 'latest'): " versionn
     done
+    if [ "$confirmacao" = "Y" ] || [ "$confirmacao" = "y" ]; then
+        break
+    elif [ "$confirmacao" = "N" ] || [ "$confirmacao" = "n" ]; then
+        echo "Encerrando a instalação, por favor, inicie a instalação novamente."
+        exit 0 
+    else
+    echo "Resposta inválida. Digite 'y' para confirmar ou 'n' para encerrar a instalação."
+    exit 1           
+    fi
 done
 
 # Adiciona o repositório Node.js
