@@ -113,22 +113,30 @@ while true; do
     done
 
     # Gera uma chave secreta de 32 caracteres (16 bytes em hexadecimal)
-    key=$(openssl rand -hex 16)    
+    key=$(openssl rand -hex 16)  
+
+    clear  
+
+    echo -e "\e[32m==============================================================================\e[0m"
+    echo -e "\e[32m=                                                                            =\e[0m"
+    echo -e "\e[32m=                 \e[33mVerifique com muita atenção\e[32m                 =\e[0m"
+    echo -e "\e[32m=                                                                            =\e[0m"
+    echo -e "\e[32m==============================================================================\e[0m"
 
     echo ""
-    echo "As informações fornecidas estão corretas?"
+    echo -e "\e[31mAs informações fornecidas estão corretas?\e[0m"
     echo ""
-    echo "Versão do Typebot: $versionn"
-    echo "Domínio do Typebot: $builder"
-    echo "Porta do Typebot: $portabuilder"
-    echo "Domínio do Bot: $viewer"
-    echo "Porta do Bot: $portaviewer"
-    echo "Domínio do Storage: $storage"
-    echo "Porta do Storage: $portastorage"
-    echo "Email: $email"
-    echo "SMTP do Gmail: $smtp"
-    echo "Porta SMTP: $portasmtp"    
-    echo "Chave secreta (ApiKey): $key"
+    echo -e "\e[34mVersão do Typebot: $versionn\e[0m"
+    echo -e "\e[34mDomínio do Typebot: $builder\e[0m"
+    echo -e "\e[34mPorta do Typebot: $portabuilder\e[0m"
+    echo -e "\e[34mDomínio do Bot: $viewer\e[0m"
+    echo -e "\e[34mPorta do Bot: $portaviewer\e[0m"
+    echo -e "\e[34mDomínio do Storage: $storage\e[0m"
+    echo -e "\e[34mPorta do Storage: $portastorage\e[0m"
+    echo -e "\e[34mEmail: $email\e[0m"
+    echo -e "\e[34mSMTP do Gmail: $smtp\e[0m"
+    echo -e "\e[34mPorta SMTP: $portasmtp\e[0m"
+    echo -e "\e[34mChave secreta (ApiKey): $key\e[0m"
     echo ""
     read -p "Digite 'Y' para continuar ou 'N' para corrigir: " confirmacao
 
@@ -419,7 +427,7 @@ cd
 
 clear
 
-cd ~/instalador_T_N_E
+cd /home/ubuntu/instalador_T_N_E_W_C_
 
 # Retorna para o instalador.sh
 # Exibe uma mensagem de confirmação
