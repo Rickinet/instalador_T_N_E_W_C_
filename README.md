@@ -17,9 +17,9 @@ Siga estas etapas para instalar todos os serviços em uma única sequência.
 Clone os repositórios do Typeboot N8N Evolution Whaticket e Chatwoot.
 
 ```bash
-git clone https://github.com/Rickinet/instalador_T_N_E_W_C_.git
+sudo git clone https://github.com/Rickinet/instalador_T_N_E_W_C_.git
 cd instalador_T_N_E_W_C_
-chmod +x instalador.sh
+sudo chmod +x instalador.sh
 ./instalador.sh
 ```
 ### Credenciais de Acesso Nginx
